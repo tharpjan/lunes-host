@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # 每10天北京/河内/曼谷时区（UTC+7）07:00 执行一次（按需调整）
-    - cron: "0 23 */10 * *"   # UTC 23:00 = 北京/河内/曼谷 07:00
+    - cron: "0 21 */10 * *"   # UTC 21:00 = 北京/河内/曼谷 05:00
 
 jobs:
   login:
